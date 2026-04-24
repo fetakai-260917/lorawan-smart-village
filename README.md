@@ -111,7 +111,7 @@ This system is based on a real-world deployment, including:
 - InfluxDB (time-series database)
 - Grafana (data visualization)
 - Docker (containerized backend deployment)
-- Raspberry Pi (edge computing & gateway)
+- Raspberry Pi (edge computing & LoRaWAN gateway)
 
 ---
 
