@@ -88,6 +88,7 @@ This system is based on a real-world deployment, including:
 - Integrated edge-based computer vision module on Raspberry Pi
 - Developed system integration across edge, network, and cloud layers
 - Developed and deployed the company website using HTML/CSS and Python (Flask)
+- Built a lightweight GPS tracking interface using Google Apps Script, enabling real-time visualization of location data
 - Implemented secure service exposure using Cloudflare Tunnel, avoiding direct port forwarding and improving deployment security
 
 ---
