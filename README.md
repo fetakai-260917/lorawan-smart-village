@@ -2,7 +2,7 @@
 
 ## Links
 
-- 🔗 Project Website: [https://seeds-dlab.com/en/smart-village ](https://seeds-dlab.com/en/smart-village)
+- 🔗 Project Website (English page available): [https://seeds-dlab.com/en/smart-village ](https://seeds-dlab.com/en/smart-village)
 - 🚀 Live Demo: [https://farmer-b.seeds-dlab.com/dashboard](https://farmer-b.seeds-dlab.com/dashboard/)
 
 ## Overview
