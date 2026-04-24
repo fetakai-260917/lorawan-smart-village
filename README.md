@@ -87,6 +87,8 @@ This system is based on a real-world deployment, including:
 - Deployed and maintained VPS-based backend using Docker
 - Integrated edge-based computer vision module on Raspberry Pi
 - Developed system integration across edge, network, and cloud layers
+- Developed and deployed the company website using HTML/CSS and Python (Flask)
+- Implemented secure service exposure using Cloudflare Tunnel, avoiding direct port forwarding and improving deployment security
 
 ---
 
