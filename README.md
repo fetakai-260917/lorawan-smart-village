@@ -1,5 +1,10 @@
 # Design and Deployment of a LoRaWAN-Based Smart Village IoT System by SEEDs LLP (D-Lab)
 
+## Links
+
+- 🔗 Project Website: [https://seeds-dlab.com  ](https://seeds-dlab.com/en/smart-village)
+- 🚀 Live Demo: [https://seeds-dlab.com/en/smart-village](https://seeds-dlab.com/en/smart-village)
+
 ## Overview
 This project presents the design and real-world deployment of a LoRaWAN-based IoT system for smart village applications. The system integrates edge devices, wireless communication, cloud infrastructure, and data visualization to support practical use cases such as environmental monitoring, asset tracking, and community safety.
 
