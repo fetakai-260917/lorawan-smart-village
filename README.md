@@ -1,4 +1,4 @@
-# LoRaWAN Smart Village System
+# LoRaWAN Smart Village System (by SEEDs LLP/D-lab) 
 
 ## Overview
 This project demonstrates the design and deployment of a LoRaWAN-based IoT system for smart village applications.
