@@ -6,8 +6,8 @@
 ## Links
 
 - 🔗 Project Website (Smart Village): https://seeds-dlab.com/en/smart-village  
-- 🚀 Live Dashboard Demo: https://farmer-b.seeds-dlab.com/dashboard  
-  Real-time visualization of field-deployed sensor data and system outputs
+- 🚀 Live Dashboard Demo (Node-RED): https://farmer-b.seeds-dlab.com/dashboard  
+  Real-time monitoring and alert interface for field-deployed sensor and system data
 
 ---
 
@@ -21,7 +21,7 @@ The system integrates edge devices, wireless communication, cloud infrastructure
 
 ## System Architecture
 
-Edge Devices → LoRaWAN Gateway → ChirpStack → MQTT → Node-RED → InfluxDB → Grafana / Dashboard
+Edge Devices → LoRaWAN Gateway → ChirpStack → MQTT → Node-RED → InfluxDB → Visualization (Grafana / Node-RED Dashboard)
 
 ![System Architecture](docs/LoRaWAN-architecture.png)
 
@@ -33,7 +33,7 @@ The system is designed as an end-to-end IoT infrastructure based on LoRaWAN.
 
 Edge devices (Arduino-based sensors and Raspberry Pi modules) collect environmental and positional data and transmit it via LoRa to self-deployed gateways. These gateways forward data to a ChirpStack network server.
 
-Data is then published via MQTT to a cloud-based backend (VPS), where it is processed using Node-RED. Processed data is stored in InfluxDB and visualized through Grafana dashboards.
+Data is transmitted via MQTT to a cloud-based backend (VPS), where it is processed using Node-RED. The resulting data is stored in InfluxDB and visualized through Grafana for time-series analysis and Node-RED dashboards for real-time monitoring.
 
 The system supports real-time alerts and remote monitoring, enabling practical deployment in smart village environments.
 
@@ -83,7 +83,7 @@ This system is based on a real-world deployment, including:
 
 - Designed and deployed the LoRaWAN network architecture (gateway + backend)
 - Configured and managed ChirpStack-based infrastructure
-- Built end-to-end data pipeline (MQTT → Node-RED → InfluxDB → Grafana)
+- Built end-to-end data pipeline (MQTT → Node-RED → InfluxDB → Grafana/Node-RED)
 - Deployed and maintained VPS-based backend using Docker
 - Integrated edge-based computer vision module on Raspberry Pi
 - Developed system integration across edge, network, and cloud layers
@@ -110,7 +110,7 @@ This system is based on a real-world deployment, including:
 - MQTT (Mosquitto)
 - Node-RED
 - InfluxDB (time-series database)
-- Grafana (data visualization)
+- Grafana/Node-RED (data visualization)
 - Docker (containerized backend deployment)
 - Raspberry Pi (edge computing & LoRaWAN gateway)
 
