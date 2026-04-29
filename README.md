@@ -96,7 +96,7 @@ This system is based on a real-world deployment, including:
 
 ## Results
 
-- Successfully deployed multiple LoRaWAN gateways with ~5 km coverage
+- Successfully deployed multiple LoRaWAN gateways
 - Achieved real-time environmental and GPS data monitoring
 - Built operational dashboards for continuous system visualization
 - Implemented alert-based monitoring system for practical field use
