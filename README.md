@@ -72,7 +72,7 @@ This enables practical deployment in rural environments where connectivity may b
 
 This system is based on a real-world deployment, including:
 
-- Multiple self-deployed LoRaWAN gateways (~5 km coverage)
+- Multiple self-deployed LoRaWAN gateways
 - Field-deployed sensors for environmental monitoring
 - Integration of edge AI modules (Raspberry Pi-based)
 - Comparative deployment contexts in Japan and Germany
