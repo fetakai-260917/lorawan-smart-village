@@ -8,7 +8,7 @@
 
 - 🔗 Project Website (Smart Village): [https://seeds-dlab.com/en/smart-village](https://seeds-dlab.com/en/smart-village)
 
-- 🚀 Live Dashboard Demo (Node-RED): [https://farmer-b.seeds-dlab.com/dashboard](https://farmer-b.seeds-dlab.com/dashboard)
+- 🚀 Live Dashboard Demo (Node-RED): [https://farmer-a.seeds-dlab.com/dashboard](https://farmer-b.seeds-dlab.com/dashboard)
 
   Real-time monitoring and alert interface for field-deployed sensor and system data.
 
